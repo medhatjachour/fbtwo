@@ -1,0 +1,248 @@
+/*common*/
+p{
+    padding: 0;
+    margin: 0;
+}
+button:focus{
+    outline: none;:important;
+}
+input:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.box-a{
+    width: 100%;
+    height: 80px;
+    box-shadow: 13px 1px 15px #e4e4e4;
+    background-color: white;
+    padding-top: 17px ;
+}
+/*box a*/
+.cnt-bxa{
+    height: 100%;
+    position: relative;
+}
+.log-bx-a{
+    margin-right: 18%;
+    overflow:inherit;
+    width: 10%;
+    height: 70%;
+    float: left;
+    background-image: url(../img/edt.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.bxa-adr{
+    width: 18%;
+    float: left;
+    color: #06163a;
+    text-transform: capitalize;
+}
+.bxa-adr p{
+    font-size: 13px;
+}
+.bxa-adr .info-bxa{
+    font-size: 14px;
+    font-weight: bold;
+}
+.bxa-adr button{
+    padding: 8px ;
+    background-color: #f4f4f4;
+    border:0px solid transparent;
+    cursor: pointer;
+}
+.bxa-adr button img{
+    margin-right: 5px;
+}
+.bxa-adr button i{
+    color: red;
+    margin-left: 8px;
+}
+.minu-bxa{
+    display: none;
+    z-index: 1;
+    width: 140px;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    right:6%;
+    top: 100%;
+}
+.minu-bxa ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.minu-bxa ul li{
+    padding-left: 5px;
+    margin: 8px 3px;
+    color: black;
+    font-size: 18px;
+    
+}
+.minu-bxa ul li:hover{
+    background-color: azure;
+}
+/*box b*/
+.box-b{
+    width: 100%;
+    height: 74px;
+    background-color: #fafafa;
+    float: left;
+    padding-top: 7px;
+}
+.navbar{
+    z-index: 9999;
+    position: fixed;
+}
+.form-inline{
+    margin-left: 158px;
+}
+.navbar-nav li{
+    font-family: serif;
+    text-transform: capitalize;
+    color: #888888;
+    font-size: 19px;
+}
+.navbar-nav li:hover{
+    background-color: #06163a;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.navbar-nav li p{
+    display: inline-block;
+}
+.dropdown-toggle{
+    color: white;
+    fill:white;
+}
+.navbar-nav li:hover p{
+    margin: 0;
+    display: inline-block;
+    color:white;
+}
+.new-li{
+    padding: 0.6rem 0.70rem;
+    border-radius: 3px;
+    font-weight: 700;
+    transition: all .3s;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.navbar-nav li i{
+    margin-left: 3px;
+    font-size: 15px;
+}
+.icn-srch .btn-primary{
+    background-color: transparent;
+    color: #ff3514;
+    border: 0px solid transparent;
+    font-size: 22px;
+}
+.icn-srch{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.icn-srch i{
+    transform: translateY(-10px);
+} 
+.icn-srch:focus{
+    outline: none;
+}
+.btn-primary:focus{
+    outline:none;
+}
+.srch-bx{
+    width: 120%;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: white;
+}
+.srch-bx input{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    border: 0px solid white;
+}
+.srch-bx i{
+    position: relative;
+    top: 8px;
+    font-size: 21px;
+}
+#exampleModal{
+    transform: translateY(40%);
+    height: 100%;
+}
+.srch-bx .fa-times{
+    color: #ff3514;
+    margin-left: 3.4%;
+    
+}
+.srch-bx .fa-search{
+    color: gainsboro;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+#modalfade{
+     display: none;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease 0s;
+}
+.modal-dialog {
+    max-width: 804px;
+    margin: 1.75rem auto;
+    border-radius: 50px;
+    transform: translateY(-40%;)
+}
+.modal-content{
+    border-radius: 50px;
+}
+.rqst-qut{
+    background-color: #ff3514;
+    color: white;
+    border: 0px solid white;
+}
+.rats-cnt{
+    width: 100%;
+    height: 800px;
+        border-radius: 19px;
+}
+.modal-pic{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-image: url(../img/bg_8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-body{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+}
+
+body{
+    height: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
