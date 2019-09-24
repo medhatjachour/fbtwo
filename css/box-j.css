@@ -1,0 +1,8 @@
+.box-j {
+  width: 100%;
+  display: flex;
+  padding: 100px 0px;
+  height: 400px;
+  background-image: url(../images/bg_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }

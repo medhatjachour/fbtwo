@@ -1,0 +1,72 @@
+.box-a {
+  width: 100%;
+  display: flex;
+  height: 400px;
+  background-color: #fff; }
+  .box-a .container {
+    height: 75%;
+    transform: translateY(-140px);
+    z-index: 2; }
+    .box-a .container .row {
+      height: 100%; }
+      .box-a .container .row .cl-bx-a {
+        padding-right: 10px; }
+      .box-a .container .row .bx-a-p {
+        text-align: center; }
+      .box-a .container .row .bx-a-mn {
+        text-align: center;
+        height: 70%;
+        width: 100%;
+        text-align: center;
+        background: rgba(223, 60, 10, 0.808);
+        margin-bottom: 45px;
+        border-radius: 4px;
+        position: relative;
+        box-shadow: 0px 14px 47px 0px rgba(211, 50, 50, 0.24);
+        background: rgba(223, 60, 10, 0.808);
+        background-image: url(../img/icon-box-six-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .box-a .container .row .bx-a-mc {
+        background-image: url(../img/icon-box-six-2.jpg) !important; }
+      .box-a .container .row .bx-a-mb {
+        background-image: url(../img/icon-box-six-3.jpg) !important; }
+      .box-a .container .row i {
+        color: white;
+        position: relative;
+        background-color: darkblue;
+        padding: 15px;
+        position: relative;
+        top: 150px;
+        border-radius: 50%;
+        right: 0px;
+        cursor: pointer;
+        transition: .8s; }
+      .box-a .container .row i:hover {
+        transition: .5s;
+        background-color: #ff4525; }
+      .box-a .container .row p {
+        transform: translateY(85px);
+        font-size: 19px;
+        font-family: sans-serif;
+        margin-left: 25px;
+        color: #fff; }
+      .box-a .container .row .bx-a-mna {
+        padding-right: 0px;
+        background-image: url(../img/icon-box-six-4.jpg); }
+
+.rgb-bxa {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(208, 11, 11, 0.6); }
+
+@media only screen and (max-width: 766px) {
+  .box-a {
+    height: 1700px; }
+    .box-a i {
+      transform: translateY(110px); }
+  .rgb-bxa p {
+    transform: translateY(130px) !important; }
+  .cl-bx-a {
+    height: 35%; } }

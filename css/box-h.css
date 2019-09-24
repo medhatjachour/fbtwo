@@ -1,0 +1,87 @@
+.box-h {
+  width: 100%;
+  display: flex;
+  height: 900px;
+  padding: 80px 0px 50px 0px;
+  background-color: #fafafa;
+  text-align: center; }
+  .box-h p {
+    font-weight: bold; }
+  .box-h h2 {
+    color: #ff3514;
+    font-family: sans-serif;
+    font-size: 35px; }
+  .box-h .row {
+    height: 180px; }
+    .box-h .row .cp-bxf {
+      background-color: transparent; }
+      .box-h .row .cp-bxf .sp-cl {
+        border: .5px solid #ff3514; }
+  .box-h .cl-bxh {
+    background-color: white; }
+    .box-h .cl-bxh .in-cl {
+      text-align: center;
+      background: #fafafa;
+      padding: 4rem 2rem;
+      width: 100%;
+      height: 100%;
+      background-color: white; }
+      .box-h .cl-bxh .in-cl .icn {
+        width: 105px;
+        height: 105px;
+        font-size: 2.825rem;
+        margin-top: 10px;
+        border-radius: 50%;
+        margin-right: 20px;
+        background-color: white;
+        box-shadow: 0px 6px 10px 0px rgba(255, 53, 20, 0.2);
+        z-index: 101;
+        text-align: center;
+        color: #b7b7b7;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 30px auto; }
+      .box-h .cl-bxh .in-cl span {
+        color: red;
+        font-size: 30px; }
+      .box-h .cl-bxh .in-cl p {
+        margin: 5px 0px;
+        color: gray;
+        font-family: sans-serif;
+        font-size: 15px; }
+      .box-h .cl-bxh .in-cl strong {
+        color: #131315; }
+      .box-h .cl-bxh .in-cl button {
+        color: #FFF !important;
+        padding: 0.5rem 1.9rem;
+        font-weight: 400;
+        display: inline-block;
+        display: inline-flex;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 2;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        -webkit-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+        -moz-box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+        box-shadow: 0px 14px 47px 0px rgba(28, 28, 28, 0.24);
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        border-radius: 70px;
+        transition: .5s;
+        background-color: #ff3514; }
+      .box-h .cl-bxh .in-cl button:hover {
+        background-color: #fc7762;
+        transition: .5s; }
+      .box-h .cl-bxh .in-cl .sp-btn {
+        background-color: #06163a; }
+      .box-h .cl-bxh .in-cl .sp-btn:hover {
+        background-color: #676b72; }
+
+@media only screen and (max-width: 768px) {
+  .box-h {
+    height: 2080px; } }
