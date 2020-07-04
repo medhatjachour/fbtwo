@@ -5,7 +5,7 @@
     height: 450px;
     padding-top: 70px;
     .cl-bxl{
-        height: 100%;
+        
         p{
             font-size: 0.875rem;
             color: rgb(155, 155, 155);
@@ -85,3 +85,16 @@
     }
 }
 
+@media only screen and (max-width:995px){
+    .box-l{
+        height: 650px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .box-l{
+        height: 950px;
+        
+    }
+}
